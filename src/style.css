@@ -1,0 +1,64 @@
+body {
+     font-family: "Mulish", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 5vw;
+     font-style: normal;
+     background-color: rgb(255, 255, 205);
+     color: black;
+}
+
+h1{
+     margin: 20px 0px 5px 0px;
+     padding: 0px;
+     font-size: 3em;
+}
+
+._row{
+     display: flex;
+     flex-direction: row;
+}
+
+._100{
+     width: 100%;
+}
+
+._col{
+     display: flex;
+     flex-direction: column;
+}
+
+._jstart{
+     justify-content: flex-start;
+}
+
+._astart{
+     align-items: flex-start;
+}
+
+._jaround{
+     justify-content: space-around;
+}
+
+._jbetween{
+     justify-content: space-between;
+}
+
+._jevenly{
+     justify-content: space-evenly;
+}
+
+._jend{
+     justify-content: flex-end;
+}
+
+._jcenter{
+     justify-content: center;
+}
+
+._acenter{
+     align-items: center;
+}
+
+ul{
+     list-style: none;
+}
